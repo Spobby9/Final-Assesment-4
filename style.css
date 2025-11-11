@@ -1,0 +1,113 @@
+
+@font-face{font-family: Sang;
+src: url(./Assets/OnlineWebFonts_COM_11b83d67a50cdb54e626ae09c465eb7e/SangBleu\ Sunrise/);}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fustat:wght@200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WDXL+Lubrifont+TC&display=swap');
+
+
+
+/* Font-Size Manipulation */
+.hero-section h1{font-family: Sang;
+font-size:54px;}
+
+.property-section h2 , .contact-section h2 , .testimonial-section h2{font-family: Sang;
+font-size:50px;}
+
+ .contact-section h3{font-family: Sang;
+font-size:28px;}
+
+
+
+.hero-section p , .property-section p , .contact-section p{
+  font-family: "DM Sans", sans-serif;
+ font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  list-style: 1.68;
+}
+
+/* CSS for NAVbar */
+.navbar-brand{max-width:224px}
+.offcanvas-title{max-width:140px}
+
+header{position: relative ;
+z-index: 100;}
+
+header .btn{background-color: #EAE4EA; color: black;}
+
+/* CSS FOR HERO SECTION */
+.hero-section-wrap{background: url(./Assets/Mask\ group.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.hero-section h1{padding-top: 48px;
+padding-bottom: 22px;}
+
+.hero-section p{max-width: 800px;
+    padding-bottom: 30px;}
+.hero-section .btn {margin-bottom: 524px;}
+
+.hero-section{position:relative;
+top:-60px;
+z-index: 1;}
+.hero-section .btn{background: #AA6AAA; color: white;}
+
+
+/* CSS FOR PROPERTY SECTION */
+.property-section h2{padding-bottom: 82px;}
+.property-section p{
+    padding-top: 72px;
+padding-bottom: 92px;}
+.property-section .btn{background: #AA6AAA; color: white;}
+
+
+/* CSS for CONTACT SECTION */
+.contact-section{background:linear-gradient(to bottom , #CFC6D3 ,white); margin-top:70px}
+
+.contact-section h2{padding-top: 102px;
+padding-bottom: 47px;}
+
+.contact-section a {text-decoration: none; color: white;}
+
+
+.contact-section .row .div{border:1px solid transparent ; border-radius: 10px;}
+.contact-section  .row > div:nth-child(2) , .contact-section .row > div:nth-child(7)  {background-color: #EAE4EA;}
+.contact-section  .row > div:nth-child(4) , .contact-section .row > div:nth-child(5)  {background-color: #AA6AAA;}
+
+
+.contact-card h3{padding-bottom: 16px;padding-top: 5px;}
+.contact-card p{padding-bottom: 32px;}
+.contact-section a:hover {text-decoration: underline; color: yellowgreen;}
+
+
+
+/* CSS for testimonial section */
+.extrasmall-heading{font-family: "DM Sans", sans-serif;
+font-size: 14px;}
+
+/* .card-wrapper .swiper-slide-active { transform:scale(1.3)} */
+
+.testimonial-section {padding-top: 80px;}
+.testimonial-section .container > div:nth-child(4){max-width:600px;
+    margin-top: 30px;
+    margin-bottom: 5px;}
+.testimonial-section .container p:nth-child(5){font-weight: 600;font-size: 10px;}
+.testimonial-section .container p:nth-child(6){font-weight: 500;font-size: 8px; margin-bottom: 80px;}
+
+
+
+
+
+/* 
+Media Queries */ 
+
+
+
+
+
+@media(max-width:575px){
+    .navbar-brand{max-width:180px}
+    
+}
